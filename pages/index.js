@@ -1,6 +1,8 @@
 import Head from 'next/head'
 
-import { Button } from 'antd'
+import { Card, Button } from 'antd'
+
+import s from 'styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -12,8 +14,10 @@ export default function Home() {
       </Head>
 
       <main>
-        On the right is an antd primary button{' '}
-        <Button type="primary">Hello World!</Button>
+        <Card className={s.mainCard}>
+          On the right is an antd primary button{' '}
+          <Button type="primary">Hello World!</Button>
+        </Card>
       </main>
     </div>
   )
