@@ -1,5 +1,5 @@
 {
-  "name": "antd-with-nextjs-boilerplate",
+  "name": "nextjs-with-ant-design-boilerplate",
   "private": true,
   "scripts": {
     "dev": "next dev",
