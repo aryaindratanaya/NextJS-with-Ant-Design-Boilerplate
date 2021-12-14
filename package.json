@@ -1,5 +1,5 @@
 {
-  "name": "rentalann-dashboard",
+  "name": "antd-with-nextjs-boilerplate",
   "private": true,
   "scripts": {
     "dev": "next dev",
