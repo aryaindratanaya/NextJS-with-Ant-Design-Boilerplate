@@ -1,8 +1,10 @@
 import Head from 'next/head'
 
-import { Card, Button } from 'antd'
+import { Card, Button, Layout } from 'antd'
 
 import s from 'styles/Home.module.css'
+
+const { Footer } = Layout
 
 export default function Home() {
   return (
@@ -19,6 +21,10 @@ export default function Home() {
           <Button type="primary">Hello World!</Button>
         </Card>
       </main>
+
+      <footer>
+        <Footer className={s.footer}>This is a footer</Footer>
+      </footer>
     </div>
   )
 }

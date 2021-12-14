@@ -6,3 +6,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
